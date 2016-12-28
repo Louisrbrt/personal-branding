@@ -1,0 +1,119 @@
+<div class="wrapper home-banner" style="background-image: linear-gradient( -135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.65) 50%), url('<%= image_path('louis.jpg') %>');">
+  <div class="container banner-container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-4 text-right">
+        <div class="banner-content">
+          <h1>Hi, I am Louis.</br>I help my clients create great web products and amazing user experiences.</h1>
+            <%= mail_to "louis.robert@gadz.org", "Contact me", class: "btn btn-banner hvr-fade" %>
+        </div>
+      </div>
+      <!-- end of col-md-6 -->
+    </div>
+    <!-- end of row -->
+  </div>
+  <!-- end of banner-container -->
+</div>
+<!-- end of wrapper -->
+
+<div class="wrapper competences-wrapper">
+  <div class="container competences-container">
+    <div class="title-container">
+      <h2>What you can expect from me</h2>
+      <div class="underline-content"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="competences-content text-center">
+          <%= image_tag "planning.png" %>
+          <div class="h3-container">
+            <h3>UX Design</h3>
+          </div>
+          <p>I realize UX audits of your product or help you design the user experience from scratch. I provide you recommandations about user experience that directly improve your business goals.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="competences-content text-center">
+          <%= image_tag "browser.png" %>
+          <div class="h3-container">
+            <h3>Product Management</h3>
+          </div>
+          <p>I help you define your product backlog, your user personas, your development priorities. I assist you conduct your sprints.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="competences-content text-center">
+          <%= image_tag "html.png" %>
+          <div class="h3-container">
+            <h3>Development</h3>
+          </div>
+          <p>In development I pay particular attention on responsivness and maintenability. Depending on your needs I use Wordpress, Squarespace, specific development on Ruby on Rails or other...</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="competences-content text-center">
+          <%= image_tag "customer.png" %>
+          <div class="h3-container">
+            <h3>User testing</h3>
+          </div>
+          <p>I take in charge the user research and the conduction of the user interviews for your product. I provide you clear insights about the user journey on your product.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of row -->
+  </div>
+  <!-- end of competences-container -->
+</div>
+<!-- end of competences-wrapper -->
+
+<div class="wrapper portfolio-wrapper">
+  <div class="container portfolio-container">
+    <div class="title-container">
+      <h2>Projects I launched</h2>
+      <div class="underline-content"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="portfolio-card" style="background-image: url('<%= image_path('barde-screenshot.png') %>');">
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="portfolio-card">
+          <% link_to "http://www.chartigrevimoutiers.com/" do %>
+            <%= image_tag "http://placehold.it/450x250" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <!-- end of row -->
+  </div>
+  <!-- end of portfolio-container -->
+</div>
+<!-- end of portfolio-wrapper -->
+
+<div class="wrapper contact-wrapper">
+  <div class="container contact-container">
+    <div class="contact-content text-center">
+      <div class="title-container">
+        <h2>Let's talk about your project</h2>
+        <div class="underline-content"></div>
+      </div>
+      <p>Book a 30 min call to discuss the brief of your project</p>
+      <%= mail_to "louis.robert@gadz.org", "Send an Email", class: "btn btn-danger" %>
+    </div>
+    <!-- end of contact-content -->
+  </div>
+  <!-- end of contact-container -->
+</div>
+<!-- end of contact-wrapper -->
+
+
+
+
+
+
+
+

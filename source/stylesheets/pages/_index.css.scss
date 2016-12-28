@@ -1,0 +1,51 @@
+.home-banner {
+  background-size: contain;
+  background-repeat: no-repeat;;
+  .banner-container {
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    color: white;
+    .banner-content {
+      .banner-btn {
+        display:flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.competences-wrapper {
+  .competences-container {
+    .competences-content {
+      img {
+        opacity: 0.4;
+      }
+      .h3-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 110px;
+      }
+    }
+  }
+}
+
+.portfolio-wrapper {
+  .portfolio-container {
+    .portfolio-card {
+      background-size: cover;
+      max-width: 450px;
+      max-height: 250px;
+      .project-card-image {
+      }
+    }
+  }
+}
+
+.contact-wrapper {
+  padding-bottom: 80px;
+  .contact-container {
+
+  }
+}
